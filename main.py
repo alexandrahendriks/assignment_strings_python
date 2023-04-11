@@ -9,33 +9,32 @@ __human_name__ = 'strings'
 score_one = 'Ruud Gullit'
 score_two = "Marco van Basten"
 
-# Times of the score
-
+# Times of the scores
 goal_0 = 32
 goal_1 = 54
 
 scorers = f"{score_one} {goal_0}, {score_two} {goal_1}"
-print(scorers)
+#print(scorers)
 
 report = f"{score_one} scored in the {goal_0}nd minute\n{score_two} scored in the {goal_1}th minute"
+#print(report)
 
-print(report)
-
+# Choosen player's first and last name
 player = "Ronald Koeman"
 first_name = player[0:6]
 
 last = player[7:]
 last_name = player.find("Koeman")
 last_name_len = len(player[7:])
-print(last_name_len)
+#print(last_name_len)
 
 name_short = f"{player[0:1]}. {last}"
-print(name_short)
+#print(name_short)
 
+# Chant
 chant = ((first_name + "! ") * len(first_name)).rstrip()
-print(chant)
+#print(chant)
 
 good_chant = chant[-1] != " "
-
-print(good_chant)
+#print(good_chant)
 
